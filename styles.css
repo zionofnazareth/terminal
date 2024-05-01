@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .bg-img1 {
+    background-image: url(./images/Screenshot_20240101-150433.png);
+  }
+  
+  .bg-img2 {
+    background-image: url(./images/Screenshot_20240101-150331.png);
+  }
+  
+  .bg-img3 {
+    background-image: url(./images/Screenshot_20240101-150421.png);
+    
+  }
+  .bg-img4{
+    background-image: url(./images/Screenshot_20240101-150555.png);
+  }
+  
+  
+  
+  
+  
+  .courasel-image {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .navbar {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:brown;
+    padding: 20px;
+    font-size: 20px;
+    
+  }
+  .navbar h2 {
+    margin-left: 20px;
+    font-weight: bolder;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar ul li a {
+    margin-right: 40px;
+    padding: 10px;
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    line-height: 1;
+    font-weight: bold;
+    list-style: none;
+    color: green;
+  }
+  
+  .navbar ul li a:hover {
+    text-underline-offset: 0;
+    transition: 0.5s;
+  }
+  
+  .navbar ul button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background-color: green;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .carousel-caption {
+    border: 5px solid #fff;
+    width: 600px;
+    /* position: absolute; Center the caption */
+    margin: auto;
+    margin-bottom: 150px;
+    padding: 15px;
+  }
+  
+  .carousel-caption p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* overflow-wrap: break-word; */
+  }
+  
+  .carousel-caption h1 {
+    margin-top: 20px;
+    font-size: 48px;
+  }
+  
+  .carousel-caption button {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 25px;
+    background-color: #c5d1ec;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  /* .navbar-brand {
+    font-size: 2rem;
+  } */
+  
+  .appointment {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .appointment h3 {
+    margin-top: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .appointment p {
+    margin-bottom: 30px;
+  }
+  
+  .appointment button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px 25px;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .abmo {
+    display: flex;
+    align-items: center;
+    background-color: #c5d1ec;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  
+  .about {
+    background-color: lightsteelblue;
+    text-align: center;
+  }
+  
+  .motivation {
+    background-color: lightsteelblue;
+    text-align: center;
+  }
+  
+  .opi {
+    text-align: center;
+  }
+  
+  .cookie {
+    display: flex;
+    background-color: #000000;
+  }
+  
